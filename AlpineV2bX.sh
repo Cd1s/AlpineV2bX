@@ -127,6 +127,7 @@ fi
 
 depend() {
     need net
+    after sshd
 }
 
 start() {
