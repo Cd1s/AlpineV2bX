@@ -5,7 +5,7 @@ V2bX在Alpine上的一键脚本
 ## 如何运行？
 自动检测架构:
 ```shell
-wget https://raw.githubusercontent.com/yuwan027/AlpineV2bX/master/AlpineV2bX.sh && bash AlpineV2bX.sh
+wget https://raw.githubusercontent.com/Cd1s/AlpineV2bX/master/AlpineV2bX.sh && bash AlpineV2bX.sh
 ```
 ## 支持功能
 1.自动从v2fly更新 geosite 和 geoip   
