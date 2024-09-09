@@ -137,13 +137,13 @@ start() {
 
 stop() {
     ebegin "Stopping V2bX"
-    start-stop-daemon --stop --exec /usr/bin/V2bX
+    start-stop-daemon --stop --exec /usr/bin/V2bX server
     eend $?
 }
 
 restart() {
     ebegin "Restarting V2bX"
-    start-stop-daemon --stop --exec /usr/bin/V2bX
+    start-stop-daemon --stop --exec /usr/bin/V2bX server
     sleep 1
     start-stop-daemon --start --exec /usr/bin/V2bX server
     eend $?
