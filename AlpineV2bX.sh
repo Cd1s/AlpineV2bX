@@ -128,6 +128,7 @@ fi
 depend() {
     need net
     after sshd
+    after crond
 }
 
 start() {
